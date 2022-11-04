@@ -11,9 +11,9 @@ const addValue = addNum.addEventListener("click", () => {
 const removeValue = removeNum.addEventListener("click", () => {
   let removeNumberValue = Number(value.textContent) - 1;
   console.log(removeNumberValue);
-  if (removeNumberValue < 0) {
-    return (value.textContent = 0);
-  }
+  // if (removeNumberValue < 0) {
+  //   return (value.textContent = 0);
+  // }
   return (value.textContent = removeNumberValue);
 });
 
